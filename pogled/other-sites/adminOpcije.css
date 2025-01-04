@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    height: 100vh;
+    width:100%;
+    display:flex;
+}
+
+/*opcije*/
+.opcije{
+    width:20%;
+    height:100vh;
+    background-color: whitesmoke;
+}
+
+
+
+.display-flex{
+    border: 2px solid black;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+.listaOpcija{
+    width:100%;
+    height:95vh;
+    border: 2px solid black;
+    display: flex;
+    
+    
+}
+
+.title{
+    text-align: center;
+    height: 5vh;
+}
+
+#group-of-buttons{
+    width: 95%;
+    
+    
+}
+
+#adjust-collapse-kategorije, #adjust-collapse-podkategorije, #adjust-collapse-objave{
+    border: 1px solid black;
+    text-align: end;
+}
+
+#adjust{
+    background-color: whitesmoke;
+    width:100%;
+    border: 2px solid black;
+    text-align: start;
+}
+
+#collapse-dugmad{
+    text-align: start;
+    border: 2px solid black;
+    
+    
+}
+
+#karta{
+    display:grid;
+    background-color: whitesmoke;
+    width:100%;
+    
+    
+}
+.col, .row{
+    width:100%;
+}
+/*navbar*/
+
+.navbar{
+    width: 100%;
+    height: 5vh;
+    background-color: blanchedalmond;
+}
+
+
+
+
+/*main page*/
+
+.prikaz{
+    width:80%;
+    height:100vh;
+    background-color: white;
+    
+}
+
+.display-flex-prikaz{
+    border: 2px solid black;
+    width:100%;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*promijena*/
+
+

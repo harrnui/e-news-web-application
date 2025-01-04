@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-vijesti, Admin Opcije</title>
+        
+        <link href="/other-sites/adminOpcije.css" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <section class="opcije">
+            <div class="title">
+                <h3>Opcije Admina</h3>
+            </div>
+            <div class="display-flex">
+                <div class="listaOpcija">
+
+                    <div id="group-of-buttons" class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                        <button type="button" id="adjust-kontrolna-tabla" class="btn 1">Kontrolna tabla</button>
+                        <button type="button" id="adjust-postavke" class="btn 2">Postavke</button>
+                        <button type="button" id="adjust-lista-autora" class="btn 3">Lista autora</button>
+
+                        <a id="collapse-dugmad" class="btn  btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Reklame</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse" id="multiCollapseExample1">
+                                    <div id="karta">
+                                        <button type="button" id="adjust-collapse" class="btn 4">Nešto</button>
+                                        <button type="button" id="adjust-collapse" class="btn 5">Nešto</button>
+                                        <button type="button" id="adjust-collapse" class="btn 6">Nešto</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <a id="collapse-dugmad" class="btn  btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Vijesti</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse" id="multiCollapseExample2">
+                                    <div id="karta" >
+                                        <button type="button" id="adjust-collapse-kategorije" class="btn 7">Kategorije</button>
+                                        <button type="button" id="adjust-collapse-podkategorije" class="btn 8">Podkategorije</button>
+                                        <button type="button" id="adjust-collapse-objave" class="btn 9">Objave</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" id="adjust" class="btn 10">Galerija slika</button>
+                        <button type="button" id="adjust" class="btn 11">Video galerija</button>
+                        
+
+                        <a id="collapse-dugmad" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Stranice</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse" id="multiCollapseExample3">
+                                    <div id="karta">
+                                        <button type="button" id="adjust-collapse" class="btn 12">Nešto </button>
+                                        <button type="button" id="adjust-collapse" class="btn 13">Nešto</button>
+                                        <button type="button" id="adjust-collapse" class="btn 14">Nešto</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" id="adjust" class="btn 15">Pitanja i odgovori</button>
+                        
+
+                        <a id="collapse-dugmad" class="btn  btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4">Pretplatinici</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse" id="multiCollapseExample4">
+                                    <div id="karta" >
+                                        <button type="button" id="adjust-collapse" class="btn 16">Nešto</button>
+                                        <button type="button" id="adjust-collapse" class="btn 17">Nešto</button>
+                                        <button type="button" id="adjust-collapse" class="btn 18">Nešto</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" id="adjust" class="btn 19">Online anketa</button>
+                        <button type="button" id="adjust" class="btn 20">Društvene mreže</button>
+                    </div>
+                </div>    
+            </div>
+        </section>
+            
+        <section class="prikaz">
+            <nav class="navbar">
+                <ul class="u-list">
+                    <li class="list"><a href="#">Početna stranica</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div class="display-flex-prikaz">
+                <div id="promijena">
+
+                </div>
+            </div>
+            
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="/other-sites/adminOpcije.js"></script>
+    </body>    
+</html>
