@@ -1,0 +1,1 @@
+kontroler sluzi za spremanje svih zahtijeva, procersiranja podataka i komunikacije izmedju modela i pogleda.
