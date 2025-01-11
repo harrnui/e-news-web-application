@@ -1,32 +1,31 @@
-//Alati
+//Tools
 const express = require('express');
-//const pg = require('pg') // Software za povezivanje servera i baze podataka
 const bp = require('body-parser');
 const path = require('path');
 
 
-//Router- rute
+//Router- routes
 const homeRouter = require('./kontroler/home');
 
 
 
-//ukljucivanje clienta sa podacima o bazi podatka
+//adding the feature client with the data for connecting to the database 
 const client = require("./config/database")
 client.connect();
 
 
-//konfiguracija
+//configuration
 const app = express();
 const PORT = 3045;
-app.use(express.static(path.join(__dirname, "pogled")));//povezivanje sa pogledom
+app.use(express.static(path.join(__dirname, "pogled")));//connecting to the view
 app.use(bp.urlencoded({extended:false})); //parses the request body data into a JSON. I think 
 
 
-//korištenje ruta
+//use of routes
 app.use('/', homeRouter);
 
 
-//slušanje rada servera
+//listening 
 app.listen(PORT, () => {
     console.log("Server is listening at", PORT);
 });
