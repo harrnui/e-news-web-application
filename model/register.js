@@ -1,4 +1,4 @@
-//ovdje pišem funkcije i onda ih šaljem u kontroler ....
+//here I write functions and send them to the controller....
 const bcrypt = require('bcrypt');
 
 async function registration(data, client, response){
@@ -7,11 +7,11 @@ async function registration(data, client, response){
 
 
 
-    if (provjera.rows.length === 0){  //logika kad u bazi podataka ima korisnik
+    if (provjera.rows.length === 0){  //logic when the user is in the database 
         
 
         try{
-            const password = await bcrypt.hash(data.lozinka, 10); // kriptiranje pasvorda.
+            const password = await bcrypt.hash(data.lozinka, 10); // crypting of the password
 
             client.query('INSERT INTO users (username, password, email, role_id) VALUES ($1, $2, $3, $4)', [data.korisnicko_ime, password, data.email, null], (error) => { //dodavanje korinika u bazu podataka
                 if(error){
@@ -27,7 +27,7 @@ async function registration(data, client, response){
         }
 
 
-    }else if (provjera.rows[0].email == data.email){  //logika kad nema u bazi podataka korisnika
+    }else if (provjera.rows[0].email == data.email){  //logic when there is no user in the database 
         
         response.send("User registration denied!.E-mail taken.");
         
@@ -35,17 +35,6 @@ async function registration(data, client, response){
         response.send("Server ERROR!!.")
     }
 
-
-
-
-
-    /*client.query('INSERT INTO registration (korisnicko_ime, lozinka, email) VALUES ($1, $2, $3)', [data.name, data.lozinka, data.email], (error) => {
-        if(error){
-            console.log("Error is :", error);
-        }
-        console.log("User added to the DB! 1");
-        
-    });*/
 };
 
 
