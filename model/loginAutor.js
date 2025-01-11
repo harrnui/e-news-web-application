@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');// alat za kriptiranje passworda
+const bcrypt = require('bcrypt');// tool for crypthing passwords
 
 
 async function login(data, client, response){
