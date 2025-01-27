@@ -27,7 +27,7 @@
 
 - for database ***PostgreSQL*** is used.
 
-![ERD]((https://github.com/harrnui/e-news-web-application/blob/main/ERD-e-news.png))
+![ERD](https://github.com/harrnui/e-news-web-application/blob/main/ERD-e-news.png?raw=true)
     
     
     
