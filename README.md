@@ -2,6 +2,8 @@
 
 - The project isn't finished. I figured out the main concepts (which are: bulding in a MVC model, a client-side, server-side, the database, and the commmunication between all of them.) all of the rest are seeming like details (which are: actually uploading news posts to the app for testing, finishing the admin options panel, basically finishing the app). I am gonna be honest that lazzines has took me.
 
+![alt video](https://github.com/harrnui/e-news-web-application/blob/main/web-app-video1?raw=true)
+
 ## MVC model:
 
 - Implementing the Seperation of Concernes via Model, View and a Controller.
