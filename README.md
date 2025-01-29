@@ -1,6 +1,6 @@
 # e-news Web Application
 
-- The project isn't finished. I figured out the main concepts (which are: bulding in a MVC model, a client-side, server-side, the database, and the commmunication between all of them.) all of the rest are seeming like details (which are: actually uploading news posts to the app for testing, finishing the admin options panel, basically finishing the app). I am gonna be honest that lazzines has took me.
+- The project isn't finished. I figured out the main concepts (which are: bulding in a MVC model, a client-side, server-side, the database, and the commmunication between all of them.) all of the rest are seeming like details (which are: actually uploading news posts to the app for testing, finishing the admin options panel, basically finishing the app).
 
 ![alt video](https://github.com/harrnui/e-news-web-application/blob/main/web-app-video1.gif)
 
